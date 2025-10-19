@@ -42,6 +42,13 @@
         margin-left: 10px;
 
     }
+    .mobile-menu{
+        display: block;
+        overflow-x: hidden;
+        
+
+    }
+
 
     .plan-card {
         width: 100%;
