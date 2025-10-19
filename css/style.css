@@ -1,0 +1,482 @@
+html,textarea
+{
+    font-family:'Open sans',Montserrat,sans-serif
+}
+
+.logo,iframe
+{
+  padding: auto;
+}
+
+html
+{
+    scroll-behavior:smooth
+}
+
+h1,h2,h3
+{
+    color:#ffffff;
+}
+
+h1,h2
+{
+    padding-top:80px
+}
+
+p
+{
+    color:#000000;
+    font-size:16px;
+    line-height:24px
+}
+
+a
+{
+    transition:.5s;
+    
+}
+
+nav
+{
+    position:relative
+}
+
+section
+{
+    padding-top:70px
+}
+
+iframe
+{
+    width:100%;
+    height:600px
+}
+
+.navbar-container
+{
+    width:100%;
+    height:90px;
+    background-color:#ff068f;
+    padding:0 2em;
+    position:fixed;
+    box-sizing:border-box;
+    box-shadow:1px 2px 5px rgb(253, 186, 255);
+   z-index: 99;
+}
+
+.logo
+{
+    height:70px;
+    padding:10px;
+    
+}
+
+.navbar-itens
+{
+    list-style:none;
+    position:absolute;
+    display:inline-block;
+    height:90px;
+    line-height:70px;
+    margin:20px;
+    right:20px
+}
+
+.navbar-itens li
+{
+    display:inline-block;
+    margin-left:10px;
+    text-transform:uppercase
+}
+
+.navbar-itens li a
+{
+    text-decoration:none;
+    color:#ffffff
+}
+
+.navbar-itens li a:hover
+{
+    color:#ffffff;
+    background-color:#000000;
+    padding:0 5px;
+    display:block
+}
+
+.default-btn
+{
+    padding:5px 15px;
+    background-color:#000000;
+    border-radius:5px
+}
+
+.default-btn:hover
+{
+    color:#fff!important;
+    font-weight:700!important;
+    background-color:#000000!important;
+    display:inline!important;
+    padding:5px 15px!important
+}
+
+
+
+.plan-card .plan-price,.plans-container,.pricing-container
+ h2,.pricing-container p,.searchdomain-container h2,
+ .searchdomain-container input,.searchdomain-container p,
+ .specialties-container ul
+{
+    margin-left:auto;
+    margin-right:auto;
+    position:relative
+}
+
+
+
+
+.main-banner
+{
+    background-image:url('../img/logo/RosaShoppp.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+    padding:10em 0
+}
+
+
+
+
+.main-banner h1,.main-banner p
+{
+    color:#ffffff;
+    text-align:center;
+    font-weight:700
+}
+
+.main-banner h1
+{
+    font-size:68px
+}
+
+.contact-container p,.localization-container p,.main-banner p,
+.pricing-container p,.searchdomain-container p,
+.specialties-container p
+{
+    font-size:22px
+}
+
+.specialties-container
+{
+    background-attachment: fixed;
+    background-color: #ff068f;
+    padding:2em 0;
+    text-align:center
+}
+
+
+
+.contact-container h2,.contact-container p,.localization-container h2,
+.localization-container p,.specialisties-container p,
+.specialties-container h2
+{
+    color:#ffffff;
+    font-weight:700;
+    width:80%;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding-bottom:40px
+}
+
+.contact-container h2,.localization-container h2,.pricing-container h2,
+.searchdomain-container h2,.specialties-container h2
+{
+    font-size:48px
+}
+
+.specialties-container ul
+{
+    display:flex;
+    width:80%;
+    padding-left:0
+}
+
+.specialties-container ul li
+{
+    flex:1 1 200px;
+    list-style:none;
+    text-align:center;
+    padding:30px
+}
+
+.specialties-container ul li h3
+{
+    font-size:24px;
+    padding:20px
+}
+.specialties-container ul li p
+{
+    font-size:16px;
+    line-height:24px
+}
+
+/*.pricing-container
+{
+    background-image:url('../img/capa-post-2.png');
+    background-position:center top;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    padding-bottom:50px
+}*/
+
+.pricing-container h2,.pricing-container p,.searchdomain-container h2,
+.searchdomain-container p
+{
+    color:rgb(0, 0, 0);
+    font-weight:700;
+    width:80%;
+    text-align:center;
+    padding-bottom:40px;
+    margin-top: 10px;
+    
+}
+
+.pricing-container a
+{
+    text-decoration:none;
+    color:#080a0c;
+    text-align:center
+}
+.plans-container
+{
+    display: flex;
+    justify-content:space-between;
+    margin-top:10px;
+    width:80%;
+    margin-bottom: 100px;
+  
+    
+}
+
+
+
+.container1{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    
+  }
+  
+  .container1 .card{
+    position: relative;
+  }
+  
+  .container1 .card .face{
+    width:300px;
+    height: 200px;
+    transition:.4s;
+    
+  }
+  
+  .container1 .card .face.face1{
+    position: relative;
+    background: #ff068f;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+  }
+  
+  .container1 .card:hover .face.face1{
+    transform: translateY(0);
+    box-shadow:
+      inset 0 0 60px rgb(255, 10, 181),
+      inset 20px 0 80px rgb(255, 8, 160),
+      inset -20px 0 80px rgb(247, 26, 255),
+      inset 20px 0 300px #f0f,
+      inset -20px 0 300px #0ff,
+      0 0 50px #fff,
+      -10px 0 80px #f0f,
+      10px 0 80px #0ff;
+     
+  }
+  
+  
+  .container1 .card .face.face1 .content{
+    opacity: .2;
+    transition:  0.5s;
+    text-align: center;
+    
+     
+    
+    
+   
+  
+  }
+  
+  .container1 .card:hover .face.face1 .content{
+    opacity: 1;
+   
+  }
+  
+  .container1 .card .face.face1 .content i{
+    font-size: 3em;
+    color: #ff068f;
+    display: inline-block;
+     
+  }
+  
+  .container1 .card .face.face1 .content h3{
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    
+  
+  }
+  
+  .container1 .card .face.face1 .content a{
+     transition: .5s;
+  }
+  
+  .container1 .card .face.face2{
+     position: relative;
+     background: #ff068f;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,.8);
+    transform: translateY(-100px);
+  }
+  
+  .container1 .card:hover .face.face2{
+      transform: translateY(0);
+  
+  
+  }
+  
+  .container1 .card .face.face2 .content p, a{
+    font-size: 15pt;
+    margin:  0;
+    padding: 0;
+    color:rgb(255, 255, 255);
+  }
+  
+  .container1 .card .face.face2 .content a{
+    text-decoration:none;
+    color: #ffffff;
+    box-sizing: border-box;
+    outline : 1px dashed #333;
+    padding: 10px;
+    margin: 15px 0 0;
+    display: inline-block;
+    align-items: center;
+  }
+  
+  .container1 .card .face.face2 .content a:hover{
+    background: #000000 ;
+    color: whitesmoke; 
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+  }
+
+
+
+
+      
+   
+
+
+
+
+.recommended
+{
+    background-color:#f45c57!important
+}
+
+
+
+
+
+.contact-container input[type=submit]:hover
+{
+    color:#fff;
+    font-weight:700;
+    background-color:#000000;
+    transition:.5s
+}
+
+.localization-container
+{
+    background-color: #ff068f;
+    width:100%;
+    height:600px;
+    padding:5em 0;
+    margin-bottom:180px
+}
+
+.contact-container
+{
+    text-align:center;
+    padding:5em 0
+}
+
+.contact-container input,.contact-container textarea
+{
+    width:200px;
+    padding:10px 20px;
+    font-size:16px;
+    border-radius:5px;
+    border:1px solid #ff068f;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:20px
+}
+
+.contact-container textarea
+{
+    display:block;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:468px;
+    height:150px
+}
+
+.contact-container input[type=submit]
+{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#ff068f;
+    color:#f0f8ff
+}
+
+.footer-container
+{
+    text-align:center;
+    height:100px;
+    line-height:150px;
+    background-color:#ff068f;
+    color:#f0f8ff;
+    
+}
+.footer-container p{
+    font-size: 30px;
+}
+
+
+
+
+.ajuste
+{
+    width:100%;
+    position:fixed;
+    bottom:0
+}
